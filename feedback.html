@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile & Course Portal</title>
+</head>
+<body>
+    <header>
+        <h1>Student Profile & Course Portal</h1>
+        <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="grades.html">Grades</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+             <h2>feedback form</h2>
+             <p>please share your feedback about the courses and the portal.</p>
+             <form action="#" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <p>How was your experience?</p>
+        <input type="radio" id="good" name="experience" value="Good">
+        <label for="good">Good</label>
+        <input type="radio" id="average" name="experience" value="Average">
+        <label for="average">Average</label>
+        <input type="radio" id="bad" name="experience" value="Bad">
+        <label for="bad">Bad</label>
+        <br><br>
+ 
+        <label for="feedback">Your Feedback:</label>
+        <br>
+        <textarea id="feedback" name="feedback" placeholder="Enter your feedback" rows="5" cols="30"></textarea>
+        <br><br>
+        
+        <p>Rate your experience:</p>
+        <select name="rating" id="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br><br>
+
+        <p>Select your skills:</p>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>Thank You!</h3>
+  
+    <p>Thank you for sharing your valuable feedback.</p>
+    </main>
+    <footer>
+        <p>&copy; 2026 Student Profile & Course Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
